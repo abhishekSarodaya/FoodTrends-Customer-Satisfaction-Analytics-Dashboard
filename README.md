@@ -42,7 +42,7 @@ The dataset contains customer feedback on:
 
 All textual feedback like *Agree / Neutral / Disagree* was converted into numerical values and averaged.
 
-```DAX
+## DAX
 Avg_Satisfaction = AVERAGE(Data[Satisfaction Index])
 
 Avg_Freshness = AVERAGE(Data[Food Freshness Score])
